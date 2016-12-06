@@ -13,7 +13,6 @@ using System.Collections;
  */
 
 public class ZoneController : MonoBehaviour {
-    public Text collision;
     private GameObject targetPlayer;
     public GameObject ennemy;
 
