@@ -14,7 +14,7 @@ using System.Collections;
 
 public class ZoneController : MonoBehaviour {
     private GameObject targetPlayer;
-    public GameObject ennemy;
+    [SerializeField] GameObject ennemy;
 
     private string TAG = "ZoneController =>";
 

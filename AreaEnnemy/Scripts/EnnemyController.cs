@@ -43,6 +43,8 @@ public class EnnemyController : MonoBehaviour {
                 {
                     target = null;
                 }
+
+            
             }
             
             
@@ -53,6 +55,7 @@ public class EnnemyController : MonoBehaviour {
     public void setTarget(GameObject target)
     {
         this.target = target;
+        goToPosition(target.transform.position);
     }
     
 
